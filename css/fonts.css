@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/myriadpro-regular_0-webfont.eot');
+    src: url('../fonts/myriadpro-regular_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-regular_0-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-regular_0-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-regular_0-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('../fonts/myriadpro-semibold_0-webfont.eot');
+    src: url('../fonts/myriadpro-semibold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-semibold_0-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-semibold_0-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-semibold_0-webfont.svg#MyriadProSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold_0-webfont.eot');
+    src: url('../fonts/myriadpro-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold_0-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold_0-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold_0-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('../fonts/myriadpro-light-webfont.eot');
+    src: url('../fonts/myriadpro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-light-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-light-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-light-webfont.svg#MyriadProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'SegoeUINormal';
+    src: url('../fonts/segoeui_0-webfont.eot');
+    src: url('../fonts/segoeui_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/segoeui_0-webfont.woff') format('woff'),
+         url('../fonts/segoeui_0-webfont.ttf') format('truetype'),
+         url('../fonts/segoeui_0-webfont.svg#SegoeUINormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SegoeUISemibold';
+    src: url('../fonts/seguisb-webfont.eot');
+    src: url('../fonts/seguisb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/seguisb-webfont.woff') format('woff'),
+         url('../fonts/seguisb-webfont.ttf') format('truetype'),
+         url('../fonts/seguisb-webfont.svg#SegoeUISemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'VerdanaRegular';
+    src: url('../fonts/verdana.eot');
+    src: url('../fonts/verdana.eot') format('embedded-opentype'),
+         url('../fonts/verdana.woff') format('woff'),
+         url('../fonts/verdana.ttf') format('truetype'),
+         url('../fonts/verdana.svg#VerdanaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'VerdanaBold';
+    src: url('../fonts/verdanab.eot');
+    src: url('../fonts/verdanab.eot') format('embedded-opentype'),
+         url('../fonts/verdanab.woff') format('woff'),
+         url('../fonts/verdanab.ttf') format('truetype'),
+         url('../fonts/verdanab.svg#VerdanaBold') format('svg');
+}
