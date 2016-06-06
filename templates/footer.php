@@ -1,8 +1,6 @@
             </div>
           </div>
           <div class="clr"></div>
-          </li>
-          </ul>     
         </div>
         <div class="clr"></div>
       </div>

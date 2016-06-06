@@ -112,7 +112,10 @@ class Blog {
 
 	public function saveblog() {
 		$today = date("Ymd");
-		$sql = "INSERT INTO `blog` (`userID`,`blog`,`date_added`,`date_updated`,`title`) VALUES ('$_SESSION[id]','$_POST[blog]','$today','$today','$_POST[title]')";
+
+		$blog = $this->linkID->real_escape_string($_POST['blog']);
+
+		$sql = "INSERT INTO `blog` (`userID`,`blog`,`date_added`,`date_updated`,`title`) VALUES ('$_SESSION[id]','$blog','$today','$today','$_POST[title]')";
 		$result = $this->new_mysql($sql);
 		if ($result == "TRUE") {
 			define('temp','<font color=green>The blog was added.<br></font>');
@@ -156,7 +159,9 @@ class Blog {
 
 	public function updateblog() {
 		$today = date("Ymd");
-		$sql = "UPDATE `blog` SET `title` = '$_POST[title]', `blog` = '$_POST[blog]', `date_updated` = '$today'";
+		$blog = $this->linkID->real_escape_string($_POST['blog']);
+
+		$sql = "UPDATE `blog` SET `title` = '$_POST[title]', `blog` = '$blog', `date_updated` = '$today' WHERE `id` = '$_POST[id]'";
                 $result = $this->new_mysql($sql);
                 if ($result == "TRUE") {
                         define('temp','<font color=green>The blog was updated.<br></font>');
@@ -205,7 +210,7 @@ class Blog {
 
 
 	public function show_blog() {
-		$sql = "SELECT * FROM `blog`";
+		$sql = "SELECT * FROM `blog` ORDER BY `id` DESC";
 		$result = $this->new_mysql($sql);
 		while ($row = $result->fetch_assoc()) {
 			print "$row[blog]<br><br>";

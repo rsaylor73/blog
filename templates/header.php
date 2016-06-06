@@ -6,7 +6,7 @@
     <META NAME="keywords" CONTENT="Golf jobs">
     <META NAME="description" CONTENT="Golf Surfin is the premier provider of golf jobs in the USA. Portal where employers and job seekers in the golf industry meet. Golf employment opportunities. ">
     <link rel="icon" type="image/ico" href="/images/fav.ico">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">   
+    <link rel="stylesheet" type="text/css" href="/css/style_blog.css">   
     <link rel="stylesheet" type="text/css" href="/css/fonts.css">    
     <link rel="stylesheet" type="text/css" href="/css/demo.css">
 
@@ -29,6 +29,68 @@
                         height : "300",
                         verify_html : "false",
                         browser_spellcheck: true,
+
+
+         style_formats : [
+         {title : '14px Arial', inline : 'span', 
+            styles : {
+               'font-family': 'Arial', 
+               'font-size': '14px', 
+               'font-weight': 'normal' 
+            }
+         },
+         {title : '12px Arial', inline : 'span', 
+            styles : {
+               'font-family': 'Arial', 
+               'font-size': '12px', 
+               'font-weight': 'normal' 
+            }
+         },
+         {title : '10px Arial', inline : 'span', 
+            styles : {
+               'font-family': 'Arial', 
+               'font-size': '10px', 
+               'font-weight': 'normal' 
+            }
+         },
+         {title : '20px Palatino bold', inline : 'span', 
+            styles : {
+               'font-family': 'Palatino Linotype, Book Antiqua, Palatino, serif', 
+               'font-size': '20px', 
+               'font-weight': 'bold' 
+            }
+         },
+         {title : '17px Palatino normal', inline : 'span', 
+            styles : {
+               'font-family': 'Palatino Linotype, Book Antiqua, Palatino, serif', 
+               'font-size': '17px', 
+               'font-weight': 'normal' 
+            }
+         },
+         {title : '14px Tahoma normal', inline : 'span', 
+            styles : {
+               'font-family': 'Tahoma, Verdana, Geneva, sans-serif', 
+               'font-size': '14px', 
+               'font-weight': 'normal' 
+            }
+         },
+         {title : 'Red text', inline : 'span', 
+            styles : {
+               'color': '#FD0106'
+            }
+         },
+         {title : 'Blue text', inline : 'span', 
+            styles : {
+               'color': '#1B76B5'
+            }
+         },
+         {title : 'Small text', inline : 'span', 
+            styles : {
+               'font-family': 'Tahoma, Verdana, Geneva, sans-serif', 
+               'font-size': '11px'
+            }
+         },
+    ],
 
                 plugins: [
                     "advlist autolink lists link image charmap print preview hr anchor pagebreak",
@@ -98,8 +160,6 @@
       <div class="clr"></div>
       <div class="resumefielsContainer">
         <div class="StaticContent">
-          <ul>
-          <li>   
           <div class="contactus">
             <div class="blog"></div>
 
